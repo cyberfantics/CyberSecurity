@@ -31,8 +31,8 @@ This Python script is an advanced keylogger that logs keystrokes with timestamps
 3. Install the required dependencies:
   ```pip install colorama pynput```
 4. Set up the email configuration in the script:
-  ```EMAIL_ADDRESS = "your_email@gmail.com"  # Replace with your email address
-    EMAIL_PASSWORD = "your_email_password"  # Replace with your email password```
+  ```EMAIL_ADDRESS = "your_email@gmail.com"  # Replace with your email address```
+  ```EMAIL_PASSWORD = "your_email_password"  # Replace with your email password```
 5.Run the script:
   ```python keylogger.py```
 6. Allow necessary permissions if prompted, and the keylogger will start logging keystrokes.
