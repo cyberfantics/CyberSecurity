@@ -54,7 +54,7 @@ The application evaluates the strength of a password based on several factors:
 
 ### Usage
 
-1. Open the application in a web browser.
+1. Open the application in a web browser after running `python app.py`.
 2. Enter a password in the provided form and submit it.
 3. The application will display the password strength, a score, and feedback on how to improve the password.
 
