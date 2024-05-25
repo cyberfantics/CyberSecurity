@@ -60,8 +60,7 @@ The application evaluates the strength of a password based on several factors:
 
 ### Demo Video
 
-[Watch the demo video](https://youtu.be/lIsYJMiZz9Q)
-
+[![Demo Video](https://img.youtube.com/vi/lIsYJMiZz9Q/maxresdefault.jpg)](https://youtu.be/lIsYJMiZz9Q)
 
 ### Developer
 
