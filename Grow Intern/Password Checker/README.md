@@ -58,6 +58,13 @@ The application evaluates the strength of a password based on several factors:
 2. Enter a password in the provided form and submit it.
 3. The application will display the password strength, a score, and feedback on how to improve the password.
 
+### Demo Video
+
+<video width="600" controls>
+  <source src="https://example.com/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ### Developer
 
 Syed Mansoor ul Hassan Bukhari
