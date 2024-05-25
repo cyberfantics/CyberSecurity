@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Strength Tester</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Password Strength Tester</h1>
+            <form method="POST">
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" name="password" required oninput="hideResult()">
+                <button type="submit">Test Password</button>
+            </form>
+            {% if result %}
+            <div class="result {{ result.strength|lower }}">
+                <h2>Results</h2>
+                <p><strong>Password:</strong> {{ result.password }}</p>
+                <p><strong>Score:</strong> {{ result.score }}</p>
+                <p><strong>Strength:</strong> {{ result.strength }}</p>
+                <h3>Feedback:</h3>
+                <ul>
+                    {% for feedback in result.feedback %}
+                    <li>{{ feedback }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        <h3>Syed Mansoor ul Hassan Bukhari</h3>
+            
+    </body>
+</html>
