@@ -61,7 +61,7 @@ The application evaluates the strength of a password based on several factors:
 ### Demo Video
 
 <video width="600" controls>
-  <source src="https://example.com/demo.mp4" type="video/mp4">
+  <source src="[https://example.com/demo.mp4](https://www.linkedin.com/posts/mansoor-bukhari-77549a264_cybersecurity-growintern-internshipjourney-activity-7200205522204053504-Lzh1?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy)" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
